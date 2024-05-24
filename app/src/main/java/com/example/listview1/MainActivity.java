@@ -10,7 +10,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ArrayList list = new ArrayList();
+        ArrayList<Phone> list = new ArrayList<>();
         list.add(new Phone("Galaxy S4", "Samsung"));
         list.add(new Phone("Galaxy S3", "Samsung"));
         list.add(new Phone("Galaxy Mega", "Samsung"));
